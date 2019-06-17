@@ -1,0 +1,288 @@
+body{
+  background-color: #0c3a65;
+  font-family:  'Fredoka One', cursive;
+}
+
+.tools {
+
+  bottom: : 100px;
+  width: auto;
+  height: auto;
+  background-color: #ffb900;
+  border-radius: 3px;
+  border: solid #ffea00 2px;
+  align-items: center;
+  padding: 5px;
+  margin-bottom: 30px;
+  position: fixed;
+  z-index: 2;
+  opacity: 1;
+  position: sticky;
+  top: 0;
+  left: 0;
+
+}
+.tools button {
+  width: 50px;
+  height: 50px;
+  background-color:  #ffb900;
+  border-color:  #ffea00;
+  font-size: 8px;
+}
+.tools button:hover {
+  background-color: #00ff05;
+  border-color:  green;
+}
+.tools img {
+  width: 50%;
+  height: 50%;
+}
+#fundo {
+  width: 80%;
+  display: block;
+  margin: auto;
+
+  border-radius: 3px;
+  border: solid #ffea00 2px;
+}
+#dec {
+  position: absolute;
+  left: 30%;
+  bottom: 17%;
+  z-index: 4;
+}
+#music-box {
+  position: absolute;
+  left: 40%;
+  bottom: 1%;
+}
+#cama {
+  position: absolute;
+  left: 55%;
+  top: 31%;
+}
+#flag {
+  position: absolute;
+  left: 50%;
+  top: 18%;
+  width: 100px;
+}
+#carpet {
+  position: absolute;
+  bottom: 34%;
+  left:  44%;
+  width: 350px;
+}
+.topo {
+    background-image: url("img/background-topo.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 3px;
+    border: solid #ffea00 2px;
+    top: 0
+}
+.topo h1 {
+  color: #ffea00;
+  font-family: 'Fredoka One', cursive;
+  font-size: 36px;
+  text-decoration: none;
+  text-shadow: black;
+  text-align: center;
+
+}
+.topo ul {
+  padding:12px;
+  list-style:none;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+.topo ul li {
+  display: inline;
+  margin-left:14%; 
+}
+a {
+  color: black;
+  font-family: 'Fredoka One', cursive;
+  font-size: 20px;
+  text-decoration: none;
+  text-align: center;
+}
+a:hover {
+  background-color: #b39136;
+  border: solid #ffea00 2px;
+  border-radius: 150px;
+}
+#visible {
+  background-color:  #ffb900;
+  border-color:  #ffea00;
+  font-size: 12px;
+  position: sticky;
+  left: 0;
+  top: 0;
+  z-index: 4;
+}
+.float {
+  position: absolute;
+  bottom: -490px;
+  left: 0;
+  right: 0;
+  background-color: red;
+  text-align: center;
+  padding: 1%;
+  width: 99,8%;
+  background-color: #ffb900;
+  border-radius: 3px;
+  border: solid #ffea00 2px;
+}
+.float p {
+  margin: 0 15%;
+  text-align: justify;
+}
+#logo {
+  display: block;
+  margin: auto;
+  padding: 5px;
+  width: 20%;
+}
+#floats {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  bottom: -450px;
+  right: -6px;
+  z-index: 4;
+}
+#creditos1 {
+  font-size: 36px;
+  border: solid #ffea00 2px;
+  width: 100%;
+  height: auto;
+  background-image: url("img/creditos/Erick-Back.png");
+  margin: 0;
+  margin-top: 1.5%;
+  float: left;
+  box-sizing: border-box;
+}
+#creditos1 p{
+  color: black;
+  margin: 0;
+  padding: 0 10px;
+  }
+#creditos2 p {
+  background-color: rgba(255,255, 255, 0.5);
+  color: black;
+  margin: 0;
+  padding: 0 10px;
+
+}
+#creditos3 p {
+  background-color: rgba(255,255, 255, 0.5);
+  color: black;
+  margin-left: 0;
+  margin-right: 0;
+  padding: 0 10px;
+
+}
+#creditos2 {
+  font-size: 36px;
+  border: solid #ffea00 2px;
+  width: 100%;
+  height: auto;
+  background-image: url("img/creditos/Caio-Back.png");
+  margin: 0;
+  float: left;
+  margin-top: 1.5%;
+  box-sizing: border-box;
+}
+#creditos1 p {
+  background-color: rgba(255,255, 255, 0.5);
+}
+#creditos3 {
+  font-size: 36px;
+  border: solid #ffea00 2px;
+  width: 100%;
+  height: auto;
+  background-image: url("img/creditos/CaaC-Back.png");
+  margin: 0;
+  float: left;
+  margin-top: 1.5%;
+  box-sizing: border-box;
+}
+#habbo-l {
+  float: left;
+  margin: 10px 250px;
+}
+#habbo-r {
+  float: right;
+  margin: 10px 250px;
+}
+#MusicGUI {
+  background-color: #ffb900;
+  width: 200px;
+  height: 100px;
+  position: absolute;
+  left: 40%;
+  bottom: 1%;
+  border: solid 2px #ffea00;
+  opacity: 0;
+}
+#MusicGUI button {
+    margin: 0 50px;
+    background-color: #ffb900;
+    border-color:  #ffea00;
+}
+#MusicGUI:hover {
+  opacity: 1;
+}
+#resolution {
+  position: relative;
+  margin: auto;
+  width: 80%;
+}
+
+h1,h2,p,img{
+  margin: 0 1%;
+}
+#titulos_inicio {
+  font-size: 50px;
+  color: gold;
+  text-align: center;
+  text-shadow: 8px 8px black;
+  margin-bottom:10px;
+}
+
+h2 {
+font-size: 30px;
+color: gold;
+text-shadow: 8px 8px black;
+margin-bottom: 10px;
+}
+
+p {
+  font-size: 25px;
+  text-align: justify;
+  color: white;
+  margin-bottom:10px;
+}
+
+#imagem {
+  width: 300px;
+  height: 300px;
+  float: right;
+  margin-left: 10px;
+  border-radius: 8px;
+  border: solid 2px #ffea00;
+}
+#imagem-pet{
+  width: 180px;
+  height: 180px;
+  float: right;
+  margin-left: 10px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  border: solid 2px #ffea00;
+  background-image: url("img/pets/back-pets.jpg");
+}
+ins:hover{
+  color: red;
+  cursor: crosshair;
+}
