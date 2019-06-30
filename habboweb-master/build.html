@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Criar Quarto</title>
+    <link rel = "icon" href ="img/favicon.jpg">
+    <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Fredoka+One" rel="stylesheet">
+ 
+  </head>
+  <body>
+
+    <header class="topo">
+        <img src="img/logo.gif" id="logo">
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="sobre.html">Sobre o Game</a></li>
+          <li><a href="build.html">Criador de Quartos</a></li>
+          <li><a href="creditos.html">Creditos</a></li>
+          <img src="img/habbos/const.gif" id="floats">
+        </ul>
+    </header>
+    <button id="visible" onClick="hide()">Esconder/Aparecer Menu</button>
+    <div id="sumir" class="tools">
+
+      <button onclick="pato()"><img src="img/dec/1.png"></button>
+      <button onclick="skate()"><img src="img/dec/2.png"></button>
+      <button onclick="barril()"><img src="img/dec/3.png"></button>
+      <button onclick="cake()"><img src="img/dec/4.png"></button>
+      <button onclick="monster()"><img src="img/dec/5.png"></button>
+      <button onclick="chair()"><img src="img/dec/6.png"></button>
+      <button onclick="dino()"><img src="img/dec/7.png"></button>
+      <button onclick="dec8()"><img src="img/dec/8.png"></button>
+
+
+      <button onclick="band1()"><img src="img/flags/1.png"></button>
+      <button onclick="band2()"><img src="img/flags/2.png"></button>
+      <button onclick="band3()"><img src="img/flags/3.png"></button>
+      <button onclick="band4()"><img src="img/flags/4.png"></button>
+      <button onclick="band5()"><img src="img/flags/5.png"></button>
+      <button onclick="band6()"><img src="img/flags/6.png"></button>
+      <button onclick="band7()"><img src="img/flags/7.png"></button>
+      <button onclick="band8()"><img src="img/flags/8.png"></button>
+
+      <button onclick="carp1()"><img src="img/ground/1.png"></button>
+      <button onclick="carp2()"><img src="img/ground/2.png"></button>
+      <button onclick="carp3()"><img src="img/ground/3.png"></button>
+      <button onclick="carp4()"><img src="img/ground/4.png"></button>
+      <button onclick="carp5()"><img src="img/ground/5.png"></button>
+
+      <button onclick="cama1()"><img src="img/camas/1.png"></button>
+      <button onclick="cama2()"><img src="img/camas/2.png"></button>
+      <button onclick="cama3()"><img src="img/camas/3.png"></button>
+
+      <div class="colors">
+        <button onClick="red()">Vermelho</button>
+        <button onClick="blue()">Azul</button>
+        <button onClick="yellow()">Amarelo</button>
+        <button onClick="pink()">Rosa</button>
+        <button onClick="green()">Verde</button>
+        <button onClick="orange()">Laranja</button>
+      </div>
+    </div>
+    <div id="resolution">
+    <img src="img/fundo.png" id="fundo">
+    <img src="" id="dec">
+    <img src="" id="flag">
+    <img src="" id="carpet">
+    <img src="" id="cama">
+    <img onClick="Music()" src="img/dec/Jukebox.png" id="music-box">
+    <div id="MusicGUI">
+      <button class="Music-button" data-musica="musics/1.mp3">Funk do Pato</button>
+      <button class="Music-button" data-musica="musics/2.mp3">Habbo Hip-Hop</button>
+      <button class="Music-button" data-musica="musics/3.mp3">Habbo Romantico</button>
+    </div>
+  </div>
+    <div class="float">
+      <h1>Agora é Sua vez</h1>
+      <p>Experimente uma previa do criador de quartos no qual voce pode personalizar seu quarto com varias peças diferenciadas</p>
+    </div>
+  <script src="script.js"></script>
+  </body>
+</html>
