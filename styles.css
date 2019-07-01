@@ -295,3 +295,9 @@ ins:hover{
   border: solid 2px #ffea00;
   margin-top: 100px;
 }
+#habbovideo{
+  display: block;
+  margin:auto;
+  border-radius: 8px;
+  border: solid 2px #ffea00;
+}
